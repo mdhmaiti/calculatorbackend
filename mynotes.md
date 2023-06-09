@@ -5,7 +5,7 @@ simply res.send("hello"); is limited to the strings. To send a file to the serve
 the **method** name is " post "; which indicates that we are sending it to somewhere ...and the somewhere is determined by the ***action*** attribute ... (note : the data is the things inside the form ).. now the action is set to the ``` "/"``` which indicates the home route(home page) .
 3. In the html file the ``` name ``` is a very important thing without this the things wont workout .. you can go to the developer tools and the network section and inside the section you can do to the payload section this is where you can see how the back end works ....and the name section is basically for the system to identify the things.4
 
-4. now if you do run  the things if you are in the current code state.. 
+4. now if you do run  the things if you are in the current code state.. ...
 ``` js 
  //calculator.js
     const express = require('express')
